@@ -14,9 +14,8 @@ export default defineComponent({
   setup(props: any) {
     const value: any = inject('DLMicroContext');
     const { type = 'route' } = value || {};
-    console.log('gml', value);
     return () => {
-      return <RouterView></RouterView>;
+      return type == 'route' ? <RouterView></RouterView> : <Demo2 />;
     };
   },
 });

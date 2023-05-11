@@ -8,7 +8,7 @@
     "start": " vite"
   },
   "dependencies": {
-    "@ks-dilu/vue": "^0.0.2",
+    "@ks-dilu/vue2": "^0.1.1",
     "@vue/composition-api": "1.7.1",
     "core-js": "^3.8.3",
     "vue": "2.6.14",
